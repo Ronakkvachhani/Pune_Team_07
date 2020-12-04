@@ -30,7 +30,7 @@ table, th, td {
       /* width:100vw; */
   }
   body {
-    
+    overflow-y: hidden;
   }
 
   .middle {
@@ -100,3 +100,25 @@ table, th, td {
  .blank {
    background-color:red;
  }
+
+ marquee {
+  width: 100%;
+  padding: 10px 0;
+  background-color: grey;
+font-size:25px;
+}
+footer {
+  height: 10vh;
+}
+
+.animationn
+{
+    
+    animation:  ganpatiji 20s infinite;}
+
+ @keyframes ganpatiji{
+    20%{color:yellow;}
+    50%{color:black;}
+	70%{color:yellow;}
+   
+    80%{color:darkblue;}} 
