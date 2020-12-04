@@ -47,7 +47,7 @@ table, th, td {
   .animation
 {
     
-    animation:  ganpatiji 60s infinite;}
+    animation:  ganpatiji 120s infinite;}
 
  @keyframes ganpatiji{
     20%{color:yellow;background-color:black;}
