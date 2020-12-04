@@ -5,19 +5,23 @@
 table, th, td {
     border: 5px solid black;
     border-collapse: collapse;
-    font-size: large;
+    font-size: 105px;
     /* margin:auto */
     /* margin-left:auto;
     margin-right:auto; */
+/*    height: 10vh;*/
     
     
     
 
   }
+table {
+    height: 20vh;
+}
   th, td {
     padding: 5px;
     text-align: left;
-    font-size: 60px;
+    font-size: 75px;
     margin-top:2px;
   }
   .head
@@ -30,11 +34,11 @@ table, th, td {
       /* width:100vw; */
   }
   body {
-    overflow-y: hidden;
+    
   }
 
   .middle {
-    height:77vh;
+    height:80vh;
 
       background-image: url("1.jpg");
      
@@ -47,14 +51,14 @@ table, th, td {
   .animation
 {
     
-    animation:  ganpatiji 120s infinite;}
+    animation:  ganpatiji 20s infinite;}
 
  @keyframes ganpatiji{
-    20%{color:yellow;background-color:black;}
-    50%{color:black;background-color:yellow;}
-	70%{color:yellow;background-color:darkblue;}
+    20%{color:black;background-color:greenyellow;}
+    
+	70%{color:whitesmoke;background-color:darkblue;}
    
-    80%{color:white;background-color:red;}} 
+}
 
     .ta {
       /* background-color: lightblue;
@@ -78,8 +82,8 @@ table, th, td {
  
     } 
     .highlight{
-      background-color: black;
-      color: yellow;
+      background-color: greenyellow;
+      color: black;
       font-size: 55px;
       border:5px solid blue;
     }
@@ -100,25 +104,3 @@ table, th, td {
  .blank {
    background-color:red;
  }
-
- marquee {
-  width: 100%;
-  padding: 10px 0;
-  background-color: grey;
-font-size:25px;
-}
-footer {
-  height: 11vh;
-}
-
-.animationn
-{
-    
-    animation:  ganpatiji 20s infinite;}
-
- @keyframes ganpatiji{
-    20%{color:yellow;}
-    50%{color:black;}
-	70%{color:yellow;}
-   
-    80%{color:darkblue;}} 
