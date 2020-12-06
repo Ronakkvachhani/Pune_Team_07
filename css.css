@@ -38,7 +38,7 @@ table {
   }
 
   .middle {
-    height:80vh;
+    height:72vh;
 
       background-image: url("1.jpg");
      
@@ -51,7 +51,7 @@ table {
   .animation
 {
     
-    animation:  ganpatiji 20s infinite;}
+    animation:  ganpatiji 60s infinite;}
 
  @keyframes ganpatiji{
     20%{color:black;background-color:greenyellow;}
@@ -103,4 +103,9 @@ table {
  }
  .blank {
    background-color:red;
+ }
+.footer {
+     font-size:34px;
+     height:9vh;
+	line-height:9vh;
  }
